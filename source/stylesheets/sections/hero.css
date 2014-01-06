@@ -1,0 +1,46 @@
+/*hero.css*/
+.hero {
+  background: url("../images/hero-bg.png");
+  height: 250px;
+  position: relative;
+}
+.hero .name-card {
+  width: 200px;
+  height: 250px;
+  background: rgba(255,255,255,0.8);
+}
+.hero .name-card .avatar {
+  padding: 20px;
+}
+.hero .name-card .avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.hero .name-card .name {
+  text-align: center;
+  font-size: 140%;
+  font-weight: normal;
+  margin: 0;
+}
+.hero .name-card .email {
+  text-align: center;
+  font-size: 80%;
+}
+.hero .new-book-btn {
+  font-size: 17px;
+  line-height: 1.5;
+  color: white;
+  background: red;
+  padding: 10px 19px;
+  border-radius: 6px;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+.hero .new-book-btn:hover {
+  background: #de5b5b;
+}
+

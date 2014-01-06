@@ -1,0 +1,46 @@
+/*user_detail.css*/
+.user-detail-nav {
+  height: 620px;
+}
+.user-detail-list {
+  position: relative;
+  height: 620px;
+  width: 200px;
+  float: left;
+  background: #3C3636;
+  color: white;
+}
+.user-detail-list a {
+  display: block;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+}
+.user-detail-list a:hover {
+  color: #ccc;
+}
+.user-detail-list li.active a {
+  color: yellow;
+}
+.social-links {
+  width: 150px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -75px;
+}
+.social-links li {
+  width: 30px;
+  float: left;
+  font-size: 25px;
+}
+.user-detail-content {
+  height: 620px;
+  width: 760px;
+  float: right;
+  background: #EAEDF1;
+}
+.user-detail-content > div {
+  display: none;
+}
+

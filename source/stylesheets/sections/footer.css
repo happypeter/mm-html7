@@ -1,0 +1,17 @@
+/*footer.css*/
+.footer {
+  background: white;
+  height: 70px;
+}
+.footer-links li {
+  float: left;
+}
+.footer-links li a {
+  display: block;
+  padding: 0 18px;
+  line-height: 70px;
+  color: #999999;
+}
+.footer-links li a:hover {
+  color: #666666;
+}

@@ -1,0 +1,20 @@
+/*books.css*/
+.book-list {
+  width: 720px;
+  height: 620px;
+  margin: 0 auto;
+}
+.book-list li {
+  width: 240px;
+  height: 275px;
+  float: left;
+}
+.book-list img {
+  display: block;
+  width: 150px;
+  height: 195px;
+  margin: 30px 35px;
+  border: solid 10px #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+
