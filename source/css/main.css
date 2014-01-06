@@ -1,0 +1,198 @@
+/*common.css*/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #DEC999;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  background: white;
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*header.css*/
+.header {
+  height: 70px;
+  background: white;
+}
+.header #logo {
+  width: 200px;
+  background: #3C3636;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  float: left;
+}
+.header .search {
+  float: left;
+  padding: 20px;
+}
+.header input {
+  padding: 0;
+  border: 0;
+  height: 30px;
+}
+.header input:focus {
+  outline: none;
+}
+#nav {
+  float: right;
+}
+#nav li {
+  float: left;
+}
+#nav li a {
+  display: block;
+  padding: 0 18px;
+  line-height: 70px;
+  color: #999999;
+}
+#nav li a:hover {
+  color: #666666;
+}
+#nav li a img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 20px 5px;
+}
+#nav li a.sign-out {
+  font-size: 20px;
+}
+
+/*footer.css*/
+.footer-links li {
+  float: left;
+}
+.footer-links li a {
+  display: block;
+  padding: 0 18px;
+  line-height: 70px;
+  color: #999999;
+}
+.footer-links li a:hover {
+  color: #666666;
+}
+/*hero.css*/
+.hero {
+  background: url("../images/hero-bg.png");
+  height: 250px;
+  position: relative;
+}
+.hero .name-card {
+  width: 200px;
+  height: 250px;
+  background: rgba(255,255,255,0.8);
+}
+.hero .name-card .avatar {
+  padding: 20px;
+}
+.hero .name-card .avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.hero .name-card .name {
+  text-align: center;
+  font-size: 140%;
+  font-weight: normal;
+  margin: 0;
+}
+.hero .name-card .email {
+  text-align: center;
+  font-size: 80%;
+}
+.hero .new-book-btn {
+  font-size: 17px;
+  line-height: 1.5;
+  color: white;
+  background: red;
+  padding: 10px 19px;
+  border-radius: 6px;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+.hero .new-book-btn:hover {
+  background: #de5b5b;
+}
+
+/*user_detail.css*/
+.user-detail-nav {
+  height: 620px;
+}
+.user-detail-list {
+  position: relative;
+  height: 620px;
+  width: 200px;
+  float: left;
+  background: #3C3636;
+  color: white;
+}
+.user-detail-list a {
+  display: block;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+}
+.user-detail-list a:hover {
+  color: #ccc;
+}
+.user-detail-list li.active a {
+  color: yellow;
+}
+.social-links {
+  width: 150px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -75px;
+}
+.social-links li {
+  width: 30px;
+  float: left;
+  font-size: 25px;
+}
+.user-detail-content {
+  height: 620px;
+  width: 760px;
+  float: right;
+  background: #EAEDF1;
+}
+.user-detail-content > div {
+  display: none;
+}
+/*books.css*/
+.book-list {
+  width: 720px;
+  height: 620px;
+  margin: 0 auto;
+}
+.book-list li {
+  width: 240px;
+  height: 275px;
+  float: left;
+}
+.book-list img {
+  display: block;
+  width: 150px;
+  height: 195px;
+  margin: 30px 35px;
+  border: solid 10px #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+.footer {
+  background: white;
+  height: 70px;
+}
