@@ -2,27 +2,28 @@
 .header {
   height: 70px;
   background: white;
+  #logo {
+    width: 200px;
+    background: #3C3636;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    float: left;
+  }
+  .search {
+    float: left;
+    padding: 20px;
+  }
+  input {
+    padding: 0;
+    border: 0;
+    height: 30px;
+    &:focus {
+      outline: none;
+    }
+  }
 }
-.header #logo {
-  width: 200px;
-  background: #3C3636;
-  color: white;
-  line-height: 70px;
-  text-align: center;
-  float: left;
-}
-.header .search {
-  float: left;
-  padding: 20px;
-}
-.header input {
-  padding: 0;
-  border: 0;
-  height: 30px;
-}
-.header input:focus {
-  outline: none;
-}
+
 #nav {
   float: right;
 }
