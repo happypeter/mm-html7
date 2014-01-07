@@ -1,0 +1,51 @@
+/*header.css*/
+/* line 3, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+.header {
+  height: 70px;
+  background: white; }
+  /* line 6, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+  .header #logo {
+    width: 200px;
+    background: #3C3636;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    float: left; }
+  /* line 14, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+  .header .search {
+    float: left;
+    padding: 20px; }
+  /* line 18, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+  .header input {
+    padding: 0;
+    border: 0;
+    height: 30px; }
+    /* line 22, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+    .header input:focus {
+      outline: none; }
+
+/* line 28, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+#nav {
+  float: right; }
+
+/* line 31, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+#nav li {
+  float: left; }
+
+/* line 34, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+#nav li a {
+  display: block;
+  padding: 0 18px;
+  line-height: 70px; }
+
+/* line 39, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+#nav li a img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 20px 5px; }
+
+/* line 46, /home/peter/Desktop/mm-html7/source/stylesheets/sections/header.css.scss */
+#nav li a.sign-out {
+  font-size: 20px; }

@@ -1,0 +1,16 @@
+.face-list img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 5px #FFF;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.face-list li.face {
+  display: block;
+  float: left;
+  width: 130px;
+  text-align: center;
+  line-height: 25px;
+  margin: 20px;
+}

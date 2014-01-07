@@ -1,0 +1,14 @@
+/*footer.css*/
+
+.footer {
+  background: white;
+  height: 70px;
+}
+.footer-links li {
+  float: left;
+}
+.footer-links li a {
+  display: block;
+  padding: 0 18px;
+  line-height: 70px;
+}
